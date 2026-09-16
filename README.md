@@ -1,32 +1,16 @@
-# React + TypeScript + Vite
+# Dairy Classics Uzbekistan — Luxury Artisanal Ice Cream Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Official Luxury Web Experience for **Dairy Classics (Foreign Company Singapore Samarkand)** — Crafting World-Class Ice Creams Since 1996 in Uzbekistan.
 
-Currently, two official plugins are available:
+## 🍦 Features & Highlights
+- **Interactive 3D Stage & Flavor Switcher**: Live dynamic hero stage with 3D parallax and revolving planetary ingredient orbit.
+- **6 Canonical Category Pillars**: Cones, Sticks & Bars, Cups, Biscuit Sandwiches, Cassatta Cakes, and 1L Family Tubs.
+- **Founder's Vision & 80,000L Daily Infrastructure**: Celebrating 28+ years of heritage, European machinery, and #1 consumer choice.
+- **Uzbekistan's Favorite Ice Cream**: Showcasing 2,500+ distribution network across Tashkent, Samarkand, and major supermarket chains (Korzinka, Makro, Havas).
+- **Interactive Sensory 3D Studio & Pop-Out Cards**: Real-time GSAP animations, 3D tilt interaction, and tasting box drawer.
+- **Artisanal Scoop Pointer Cursor**: Interactive spoon pointer that scoops ice cream on hover.
+- **Official FAQs & Direct Contact**: Accordion and inquiry form with direct factory lines and WhatsApp integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🚀 Live Hosting Deployment
+- Pure zero-dependency modern HTML5, Tailwind CSS, Three.js, and GSAP.
+- 100% compatible with GitHub Pages, Vercel, Netlify, and Cloudflare Pages.
