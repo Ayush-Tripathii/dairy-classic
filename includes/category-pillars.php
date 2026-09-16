@@ -21,11 +21,11 @@
       </div>
 
       <!-- Live Category Nav Tabs -->
-      <div class="flex items-center gap-2 overflow-x-auto p-1.5 bg-[#FAF8F5] rounded-full border border-black/5 no-scrollbar max-w-full">
+      <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto p-1.5 bg-[#FAF8F5] rounded-full border border-black/5 no-scrollbar max-w-full flex-nowrap">
         <?php $catKeys = array_keys($canonicalCategories); ?>
         <?php foreach ($canonicalCategories as $key => $cat): ?>
           <button
-            class="pillar-tab-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 <?= $key === 'cones' ? 'bg-noir-900 text-cream-50 shadow-md scale-105' : 'text-noir-700 hover:text-noir-900 hover:bg-white/80' ?>"
+            class="pillar-tab-btn px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap <?= $key === 'cones' ? 'bg-noir-900 text-cream-50 shadow-md scale-105' : 'text-noir-700 hover:text-noir-900 hover:bg-white/80' ?>"
             data-category="<?= $key ?>"
             data-cursor="VIEW"
           >

@@ -1335,10 +1335,10 @@ document.addEventListener('DOMContentLoaded', () => {
         tabBtns.forEach((b) => {
           if (b.dataset.category === catKey) {
             b.className =
-              'pillar-tab-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 bg-noir-900 text-cream-50 shadow-md scale-105';
+              'pillar-tab-btn px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap bg-noir-900 text-cream-50 shadow-md scale-105';
           } else {
             b.className =
-              'pillar-tab-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 text-noir-700 hover:text-noir-900 hover:bg-white/80';
+              'pillar-tab-btn px-3.5 sm:px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all duration-300 whitespace-nowrap text-noir-700 hover:text-noir-900 hover:bg-white/80';
           }
         });
 

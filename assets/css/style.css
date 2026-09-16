@@ -636,3 +636,80 @@ img {
 .animate-pulse-glow {
   animation: pulseGlow 4s ease-in-out infinite;
 }
+
+/* ==========================================================================
+   Comprehensive Device Responsiveness & Touch Optimization
+   ========================================================================== */
+
+/* Touch Devices: Disable custom cursor and restore standard touch behavior */
+@media (hover: none), (pointer: coarse), (max-width: 768px) {
+  .custom-cursor,
+  .custom-cursor-follower {
+    display: none !important;
+  }
+  * {
+    cursor: auto !important;
+  }
+}
+
+/* Tablet & Mobile Screens (<= 768px) */
+@media (max-width: 768px) {
+  /* Orbit tracks proportional scaling */
+  .orbit-revolving-track-1 {
+    width: 320px;
+    height: 320px;
+  }
+  .orbit-revolving-track-2 {
+    width: 270px;
+    height: 270px;
+  }
+  .revolving-node {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* Carousel orbit tracks */
+  .carousel-orbit-track-1 {
+    width: 330px;
+    height: 330px;
+  }
+  .carousel-orbit-track-2 {
+    width: 280px;
+    height: 280px;
+  }
+
+  /* Safe container paddings */
+  .perspective-stage {
+    perspective: 800px;
+  }
+}
+
+/* Small Mobile Screens (<= 480px) */
+@media (max-width: 480px) {
+  .orbit-revolving-track-1 {
+    width: 260px;
+    height: 260px;
+  }
+  .orbit-revolving-track-2 {
+    width: 220px;
+    height: 220px;
+  }
+  .revolving-node {
+    width: 40px;
+    height: 40px;
+  }
+  .carousel-orbit-track-1 {
+    width: 270px;
+    height: 270px;
+  }
+  .carousel-orbit-track-2 {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+/* Horizontal momentum scrolling on touch */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
